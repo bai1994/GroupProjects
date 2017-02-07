@@ -1,0 +1,68 @@
+﻿$line-color: #ffa800;
+$border-bottom: #bebebe;
+$font-color: #000;
+$background: rgba(0,0,0,0.5);
+$margin: 0 auto;
+$padding: 0 0;
+$body-width: 1200px;
+$body-back: #eaeaea;
+*{
+    list-style: none;margin: 0px;padding: 0px;
+}
+body{
+    margin: $margin;padding: $padding;min-width: $body-width;background: $body-back;
+}
+.header{
+    margin: $margin;padding: $padding;width: $body-width*0.88;
+//  background: #fff;
+    height: $body-width*0.06;
+}
+//页面下拉时弹出的标题
+//.header-fixed{
+//  margin: $margin;padding: $padding;width: 100%;
+//  background: #fff;height: $body-width*0.05;
+//}
+.header .header-nav{
+    margin: $margin;padding: $padding;
+//  border: 1px solid red;
+    height: $body-width*0.05;
+}
+.header .header-nav .list{
+    margin: $margin;padding: $padding;width: $body-width*0.88;
+    height: $body-width*0.05;
+    line-height: $body-width*0.05;
+//  border: solid black;
+    border-bottom: 1px solid $border-bottom;
+}
+.list li{
+    float: left;
+    display: inline-block;
+//  height: 100%;
+    text-align: center;
+    width: $body-width*0.06;
+    padding: $padding;
+    position: relative;
+}
+.list li a{
+    display: inline-block;
+    height: 100%;
+    color: #222;
+    text-decoration: none;
+    font-size: 16px; 
+    border-radius: 2px;
+}
+.list .active{
+    height: 100%;
+    line-height: $body-width*0.045;
+    border-bottom: 3px solid $line-color;
+    font-style:initial;
+    color: #000;
+}
+.list li a:hover{
+    height: 100%;
+    border-bottom: 3px solid $line-color;
+    font-style:initial;
+    color: #000;
+    font-weight: 10px;
+    line-height: $body-width*0.045;
+}
