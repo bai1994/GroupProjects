@@ -1,0 +1,25 @@
+
+@font-face {font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot?t=1486521809243'); /* IE9*/
+  src: url('../iconfont/iconfont.eot?t=1486521809243#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../iconfont/iconfont.woff?t=1486521809243') format('woff'), /* chrome, firefox */
+  url('../iconfont/iconfont.ttf?t=1486521809243') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../iconfont/iconfont.svg?t=1486521809243#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:20px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-top:before { content: "\e610";display: inline-block; font-size: 40px;left: 20px;color: #a8a8a8;
+left: 6px;
+position: absolute;
+bottom: 4px;
+}
+.icon-weixin:before { content: "\e69e"; font-size: 19px;position: relative;bottom: 2px;}
+.icon-weibo:before { content: "\e62e"; font-size: 20px;}
